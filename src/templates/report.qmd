@@ -1,0 +1,36 @@
+---
+title: "Audience Emotion Analysis"
+subtitle: "{{file}}"
+format: 
+    pdf:
+        default
+---
+                                 
+# Audience emotion analysis report
+
+## Analyzer settings
+
+| | |
+|:--|--:|
+|File analysed|{{file}}|
+|Video saved|{{outfile}}|
+|Detector|{{detector}}|
+|Classifier confidence|{{confidence}}|
+|Number of frames|{{number_of_frames}}|
+|Frames skipped|{{skip}}|
+|Time elapsed|{{time}}|
+
+---
+
+## Analysis summary
+
+### Emotion count
+{{table}}
+
+### Position and magnitude of emotions
+![Position and magnitude of emotions](tmp/plot_01.png)
+                                 
+### Emotion timeline
+![Emotion timeline summary](tmp/plot_02.png)
+                                 
+![Emotion timeline per emotion](tmp/plot_03.png)
